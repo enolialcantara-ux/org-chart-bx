@@ -13,6 +13,6 @@ flowchart TD
     C4 --> A5[2 team leaders]
     A4 --> D1[16 consultores]
     A5 --> D2[3 agentes de embarque]
-    A5 --> D2[32 consultores de atendimento BPO + madrugada]
+    A5 --> D3[32 consultores de atendimento BPO + madrugada]
     
 ```
