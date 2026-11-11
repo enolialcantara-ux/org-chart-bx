@@ -1,19 +1,19 @@
 ```mermaid
 flowchart TD
-    CTO["CTO<br/>67 pessoas abaixo"]
-    GER["Gerência<br/>66 pessoas abaixo<br/><br/>Gerente<br/>Analista de negócios"]
+    CTO["CTO (67)<br/><br/>+ CTO"]
+    GER["Gerência (66)<br/><br/>+ Gerente<br/>+ Analista de negócios"]
 
     subgraph Digital
-        C1["Qualidade e Processos<br/>2 pessoas abaixo<br/><br/>Coordenador<br/>2 Analistas"]
-        C2["Jornadas Digitais<br/>4 pessoas abaixo<br/><br/>Coordenador<br/>2 Analistas<br/>2 Team Leaders Vendas Wpp"]
+        C1["Qualidade e Processos (2)<br/><br/>+ Coordenador<br/>+ 2 Analistas"]
+        C2["Jornadas Digitais (4)<br/><br/>+ Coordenador<br/>+ 2 Analistas<br/>+ 2 Team Leaders Vendas Wpp"]
     end
 
     subgraph Operacao["Operação"]
-        C3["Eficiência<br/>18 pessoas abaixo<br/><br/>Coordenador<br/>2 Team Leaders"]
-        C4["Casos Especiais<br/>37 pessoas abaixo<br/><br/>Coordenador<br/>2 Team Leaders"]
-        D1["Consultores<br/>16 pessoas"]
-        D2["Agentes de embarque<br/>3 pessoas"]
-        D3["Consultores BPO + Madrugada<br/>32 pessoas"]
+        C3["Eficiência (18)<br/><br/>+ Coordenador<br/>+ 2 Team Leaders"]
+        C4["Casos Especiais (37)<br/><br/>+ Coordenador<br/>+ 2 Team Leaders"]
+        D1["Consultores (16)<br/><br/>+ 16 Consultores"]
+        D2["Embarque (3)<br/><br/>+ 3 Agentes de embarque"]
+        D3["BPO e Madrugada (32)<br/><br/>+ 32 Consultores de atendimento"]
     end
 
     CTO --> GER
