@@ -1,6 +1,6 @@
 ```mermaid
 flowchart TD
-    CEO[Diretor] --> GER[Gerente]
+    CTO[CTO] --> GER[Gerente]
     GER --> C1[Coordenador de Qualidade e Processos]
     GER --> C2[Coordenador de jornadas digitais]
     GER --> C3[Coordenador de Eficiência]
