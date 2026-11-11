@@ -1,10 +1,16 @@
 ```mermaid
 flowchart TD
     CEO[Diretor] --> GER[Gerente]
-    GER --> C1[Coordenador 1]
-    GER --> C2[Coordenador 2]
-    GER --> C3[Coordenador 3]
-    C1 --> A1[Analista A]
-    C1 --> A2[Analista B]
-    C2 --> A3[Analista C]
+    GER --> C1[Coordenador de Qualidade e Processos]
+    GER --> C2[Coordenador de jornadas digitais]
+    GER --> C3[Coordenador de Eficiência]
+    GER --> C4[Coordenador de Casos especiais]
+    GER --> C5 [Analista de negócios]
+    C1 --> A1[2 analistas]
+    C2 --> A2[2 analistas]
+    C2 --> A3[2 team leaders de Vendas Wpp]
+    C3 --> A4[2 team leaders]
+    C4 --> A5[2 team leaders]
+    A4 --> D1[5 consultores]
+    
 ```
