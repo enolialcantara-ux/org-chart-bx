@@ -5,7 +5,7 @@ flowchart TD
     GER --> C2[Coordenador de jornadas digitais]
     GER --> C3[Coordenador de Eficiência]
     GER --> C4[Coordenador de Casos especiais]
-    GER --> C5 [Analista de negócios]
+    GER --> C5[Analista de negócios]
     C1 --> A1[2 analistas]
     C2 --> A2[2 analistas]
     C2 --> A3[2 team leaders de Vendas Wpp]
